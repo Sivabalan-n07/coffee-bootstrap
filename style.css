@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+.navbar-brand img {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 29% !important;
+}
+
+.nav-item a {
+    color: #343a40 !important;
+}
+
+.heroContainer {
+    background-image: linear-gradient(90deg, white, transparent 70%), url(./assets/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 15rem 0rem;
+}
+
+.heroJumbotron:hover button {
+    background-color: black;
+}
+
+.ourMenuJumbotron:hover button {
+    background-color: black;
+}
+
+.formGroup:hover button {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Merienda", cursive;
+    font-weight: 900 !important;
+    font-size: 67px !important;
+}
+
+p,
+h3 {
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+}
+
+h2 {
+    font-family: "Merienda", cursive;
+    font-weight: 900 !important;
+}
+
+button {
+    background-color: #be9c79;
+    border: none;
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+    font-family: "Nunito", sans-serif;
+    color: white !important;
+}
+
+.headingTitle img {
+    aspect-ratio: 16/1;
+    object-fit: contain;
+    width: 50%;
+}
+
+.iconsCardHeader i {
+    background-color: #be9c79;
+    padding: 1rem !important;
+    border-radius: 5rem;
+    color: white;
+}
+
+.copyright span {
+    color: #be9c79;
+}
+
+@media (width <=576px) {
+    .align {
+        max-width: 450px !important;
+        margin: auto !important;
+        height: auto !important;
+        padding: 0 2rem !important;
+    }
+
+    .heroJumbotron h1 {
+        font-family: "Merienda", cursive;
+        font-weight: 900 !important;
+        font-size: 30px !important;
+    }
+
+    .headingTitle img {
+        width: 100% !important;
+    }
+
+    .ourMenuJumbotron{
+        max-width: 500px !important;
+        margin: auto !important;
+        height: auto !important;
+        padding: 0 1.5rem !important;
+    }
+
+    .ourMenuJumbotron h2 {
+        font-size: 22px !important;
+        font-weight: 800 !important;
+    }
+}
